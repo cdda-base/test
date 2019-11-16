@@ -131,6 +131,26 @@
               </div>
             </div>
           </div>
+          
+          {% if page.id %}
+          <div class="tile is-child widget">
+            <div class="card">
+              <header class="card-header">
+                <p class="card-header-title nice-title">
+                  同系列作品
+                </p>
+              </header>
+              <div class="card-content">
+                <div class="content nice-text">
+                  <ul>
+                    {% assign pages_list = site.categories[page.category] %}  
+  	                {% include JB/pages_list %}
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+          {% endif %}
 
         </div>
 

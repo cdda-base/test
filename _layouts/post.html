@@ -4,11 +4,11 @@ layout: default
 
 <div class="box">
     <h1 class="post-title">{{ page.title }}</h1>
-    <span class="post-meta">{{ page.date }} </span><hr/>
-    <span class="post-meta">作者：{{ page.author }} </span><hr/>
+    <span class="post-meta">作者：{{ page.author }} </span><br/>
+    <span class="post-meta">{{ page.date | date:"%Y年%m月%d日 %H:%M:%S"}} </span><hr/>
     <span class="post-text">{{ content }}</span>
     {% include post-pagination.html %}
-    <p>评论须知：本站禁止一切无意义刷屏言论和攻击言论等不当言论，如违规将予以删除并视情况决定是否拉入黑名单，使用一次性邮箱账号发表的无营养评论会一律删除，请大家使用自己的社交账号登陆，谢谢</p>
+    <br><b><p>评论须知：</p></b><p>本站禁止一切无意义刷屏言论和攻击言论等不当言论，如违规将予以删除并视情况决定是否拉入黑名单，使用一次性邮箱账号发表的无营养评论会一律删除，请大家使用自己的社交账号登陆，谢谢!</p>
     <!-- 来必力City版安装代码 -->
     <div id="lv-container" data-id="city" data-uid="MTAyMC80NzQ2Mi8yMzk2Mg==">
         <script type="text/javascript">

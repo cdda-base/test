@@ -1,5 +1,5 @@
 #模板被应用后必须要改的内容
-baseurl: /xxx
+baseurl: /test
 # This is the default format.
 # For more see: http://jekyllrb.com/docs/permalinks/
 permalink: /posts/:categories/:title/index.html
@@ -68,7 +68,7 @@ JB :
   #   - Only the following values are falsy: ["", null, false]
   #   - When setting BASE_PATH it must be a valid url.
   #     This means always setting the protocol (http|https) or prefixing with "/"
-  BASE_PATH : false #模板被应用后必须要改！！！！！！
+  BASE_PATH : https://cddabase.site/test #模板被应用后必须要改！！！！！！
 
   # By default, the asset_path is automatically defined relative to BASE_PATH plus the enabled theme.
   # ex: [BASE_PATH]/assets/themes/[THEME-NAME]

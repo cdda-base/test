@@ -2,18 +2,18 @@
 layout: default
 ---
 
-<div class="box">ver
+<div class="box">
     <h1 class="post-title">{{ page.title }}</h1>
     <span class="post-meta">作者：{{ page.author }} </span><br/>
     <span class="post-meta">Mod系列名：{{ page.category }} </span><br/>
     <span class="post-meta">Mod版本：{{ page.ver }} </span><br/>
     <span class="post-meta">标签：
         {% for tag in post.tags %} 
-        {{tag}} 
+        <p>{{tag}} </p>
         {% endfor %}
-         </span><br/>
+    </span><br/>
     <span class="post-text">{{ content }}</span>
-    <h4><a href="{{post.addr}}">下载</a></h4>
+    <h4><a href="{{ post.daddr }}">下载</a></h4>
     {% include post-pagination.html %}
     {% include postcomments.html %}
 </div>

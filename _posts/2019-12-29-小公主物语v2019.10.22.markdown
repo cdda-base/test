@@ -2,7 +2,7 @@
 title: 小公主物语v2019.10.22
 layout: post
 category: 小主公物語  
-tags: [物品扩展]
+tags: [物品扩展,其它]
 author: 桂溪  
 ver: 2019.10.22
 info: 新手向MOD入门：如何在CDDA中捏角.  

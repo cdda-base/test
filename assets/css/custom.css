@@ -401,3 +401,25 @@ font[color='#0000ff'] {
     background: white;
     padding: 5px;
 }
+
+.tag {
+	color: #B8B8B8;
+	padding-bottom: 5px;
+	padding-top: 5px;
+	text-align: left;
+	padding-left: 20px;
+	margin: auto;
+	padding-right: 20px;
+}
+
+.warning {
+    color: #de4141;
+    text-align: left;
+    width: 90%;
+    float: left;
+    padding-left: 20px;
+    margin: auto;
+    padding-right: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}

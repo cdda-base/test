@@ -5,10 +5,15 @@ title: Mod下载
 <ul class="posts">
     {% for post in paginator.posts %}
     <li class="post">
-        <small>{{ post.date | date_to_string }}</small>
-        <br>
         <a class="nice-title" href="{{ post.url | relative_url }}">{{ post.title }}</a>
-        <p class="nice-text">{{ post.description }} <a href="{{ post.url | relative_url }}">阅读更多</a></p>
+        <small>作者：{{ post.author }}</small><small>兼容游戏版本：{{ post.gamever }}</small>
+        <br/>
+        <small>标签：
+            {% for tag in page.tags %} 
+                <p class="tag">{{ tag }} </p>
+            {% endfor %}
+        </small><br/>
+        <p class="nice-text">{{ post.info }} <a href="{{ post.url | relative_url }}">了解更多</a></p>
     </li>
     {% endfor %}
     {% include pagination.html %}

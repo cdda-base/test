@@ -7,11 +7,13 @@ layout: default
     <span class="post-meta">作者：{{ page.author }} </span><br/>
     <span class="post-meta">Mod系列名：{{ page.category }} </span><br/>
     <span class="post-meta">Mod版本：{{ page.ver }} </span><br/>
+    <span class="post-meta">兼容游戏版本：{{ page.ver }} </span><br/>
     <span class="post-meta">标签：
         {% for tag in page.tags %} 
-            <p>{{ tag }} </p>
+            <p class="tag">{{ tag }} </p>
         {% endfor %}
-    </span><br/><hr/>
+    </span><hr/>
+    <p class="warning"> {{ page.warnig }} </p>
     <span class="post-text">{{ content }}</span>
     <h4><a href="{{ post.addr }}">下载</a></h4>
     {% include post-pagination.html %}

@@ -2,12 +2,12 @@
 title: 小公主物语v2019.10.22
 layout: post
 category: 小主公物語  
-tags: [物品扩展,其它]
+tags: [物品扩展]
 author: 桂溪  
 ver: 2019.10.22
+gamever: 0.D
 info: 新手向MOD入门：如何在CDDA中捏角.  
 warning: 这是一个配合教程学习的模板素材mod. 
 addr: ../../mods-cn/SSDT_princess.zip
 ---
-新手向mod入门：如何在CDDA中捏角
-这是一个配合教程学习的模板素材mod. 
+新手向mod入门：如何在CDDA中捏角   

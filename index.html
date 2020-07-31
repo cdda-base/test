@@ -10,7 +10,7 @@ title: Mod下载
         <br/>
         <small>标签：
             {% for tag in post.tags %} 
-                <p>{{ tag }} </p>
+                <p class="tag">{{ tag }} </p>
             {% endfor %}
         </small><br/>
         <p class="nice-text">{{ post.info }} <a href="{{ post.url | relative_url }}">了解更多</a></p>

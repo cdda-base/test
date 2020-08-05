@@ -8,6 +8,6 @@ ver: 2019.10.22
 gamever: 0.D
 info: 新手向MOD入门：如何在CDDA中捏角.  
 warning: 这是一个配合教程学习的模板素材mod. 
-addr: {% link mods-cn/SSDT_princess.zip %}
+addr: {% link { production_url }/mods-cn/SSDT_princess.zip %}
 ---
 新手向mod入门：如何在CDDA中捏角   
